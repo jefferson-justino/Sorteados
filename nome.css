@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+}
+header section h1{
+    color: #03575C;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8em;
+}
+a{
+    text-decoration: none;
+    color: #03575C;
+}
+#botao{
+    padding-left: 5%;
+  
+}
+header section input{
+    padding: 10%;
+    border-radius: 1em;
+    border: solid 0.5px #03575C;
+    background-color: white;
+    font-weight: bold;
+    color: #03575C;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#logo{
+    padding-left: 5%;
+    
+}
+header{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    border-bottom: solid #cecece 0.5px;
+    padding-bottom: 1%;
+    align-items: center;
+    
+}
+
+li{
+    display: inline;
+    list-style: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ul{
+    display:flex;
+flex-wrap: wrap;
+ gap: 60px
+}
+header nav{
+padding-left: 46%;
+
+}
+header nav ul a :hover {
+    color: #009199;
+}
+
+/*deve estar nas paginas de sorteio todos*/
+
+main{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+article{
+    border: solid #03575C 1px;
+    padding:5%;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #03575C;
+    font-weight: bolder;
+    font-size: 1.1em;
+    text-align: center;
+    box-shadow:  1px 1px 15px 1px #7c7c7c
+    
+}
+#texto{
+    padding-bottom: 5%; 
+}
+#add{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #03575C;
+    padding: 1%;
+    font-size: 1.1em;
+    background-color: transparent;
+    border: solid #03575C 1px;
+    border-radius: 5px;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+#nome{
+    width: 80%;
+    border: solid #03575C 1px;
+    border-radius: 5px;
+    padding: 1%;
+}
+#bot{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #03575C;
+    padding: 1%;
+    font-size: 1.1em;
+    background-color: transparent;
+    border: solid #03575C 1px;
+    border-radius: 5px;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+#paragrafoInput{
+    padding-bottom: 1%;
+}
+#resultado{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#nomeSorteado{
+color: red;    
+}
+
+#bot:active {
+   
+    transform:  scale(0.9);
+   
+    transition: all .1s ease-in-out 0s;
+  }
+
+  #add:active {
+   
+    transform:  scale(0.9);
+   
+    transition: all .1s ease-in-out 0s;
+  }
+
+  
+  

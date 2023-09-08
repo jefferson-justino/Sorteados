@@ -1,0 +1,70 @@
+/*deve estar em todos*/
+*{
+    margin: 0%;
+}
+header section h1{
+    color: #03575C;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8em;
+}
+a{
+    text-decoration: none;
+}
+#botao{
+    padding-left: 70%;
+    
+    
+}
+header section input{
+    padding: 10%;
+    border-radius: 1em;
+    border: solid 0.5px #03575C;
+    background-color: white;
+    font-weight: bold;
+    color: #03575C;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#logo{
+    padding-left: 5%;
+    
+}
+header{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    border-bottom: solid #cecece 0.5px;
+    padding-bottom: 1%;
+    align-items: center;
+    
+}
+/*deve estar em todos*/
+
+main{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+    
+}
+.textoCard{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+.tituloCard {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000000;
+}
+nav a div {
+    border: solid #03575C 0.5px;
+    padding: 5%;
+    text-align:center;
+    border-radius: 2em;
+    box-shadow:  1px 1px 15px 1px #7c7c7c
+    
+}
+nav a div:hover{
+    transform: scale(1.02);
+}
