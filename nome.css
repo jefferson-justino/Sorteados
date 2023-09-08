@@ -141,6 +141,8 @@ color: red;
   ol{
     padding-left: 0%;
   }
+
+  /* responsividade */
   @media(max-width:1272px){
 
     header nav{
