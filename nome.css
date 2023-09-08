@@ -134,6 +134,88 @@ color: red;
    
     transition: all .1s ease-in-out 0s;
   }
+#num{
+    padding-bottom: 5%;
+}
+  
+  ol{
+    padding-left: 0%;
+  }
+  @media(max-width:1272px){
 
-  
-  
+    header nav{
+        padding-left: 36%;
+        
+        }
+
+  }
+  @media(max-width:1042px){
+
+    header nav{
+        padding-left: 26%;
+        
+        }
+        main{
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            
+        }
+  }
+  @media(max-width:879px){
+
+    header nav{
+        padding-left: 15%;
+        
+        }
+       
+  }
+  @media(max-width:736px){
+
+    header nav{
+        padding-left: 5%;
+        
+        }
+        main{
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            
+        }
+  }
+  @media(max-width:616px){
+    header nav{
+        padding-left: 2%;
+        
+        }
+
+    ul{
+        display:flex;
+    flex-wrap: wrap;
+     gap: 20px
+    }
+        main{
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            
+        }
+  }
+  @media(max-width:396px){
+    header nav{
+        padding-left: 1%;
+        
+        }
+
+        main{
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-top: 3%;
+            padding-bottom: 5%;
+            
+        }
+     
+  }

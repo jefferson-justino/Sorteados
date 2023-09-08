@@ -30,6 +30,38 @@ nome.focus()
 
 })
 
+nome.addEventListener('keypress', (event)=>{
+    if(event.key=='Enter'){
+        adicionar()
+    }
+  
+})
+
+
+function adicionar(){
+    
+
+    let valor = nome.value
+
+    
+    resultado.innerHTML=` `
+    if(valor== ''){
+        resultado.innerHTML=` <P id='nomeSorteado'>NÃO DEIXE O CAMPO VAZIO!</P>`
+        
+        return
+    }
+
+
+    participantes.push(valor)
+    num.innerHTML=`Você tem ${participantes.length} participantes!`
+    lista.innerHTML=``   
+    for(let i = 0; i<participantes.length;i++){
+        
+        lista.innerHTML+=` <ol><li class='participantes'> ${ participantes[i]}</li></ol>`
+    }
+nome.value= ''
+nome.focus()
+}
 
 
 botao.addEventListener('click', ()=>{
@@ -41,17 +73,15 @@ botao.addEventListener('click', ()=>{
     }
     
     let x = Math.floor( Math.random()*participantes.length)
-    if(x== 0){
-      do{
-        x = Math.floor( Math.random()*participantes.length)
-        console.log(x)
-      }while(x==0)
-      
-      resultado.innerHTML=`PARABÉNS <P id='nomeSorteado'>${participantes[x]}</P> VOCÊ FOI SORTEADO!`
-    }else{
-        resultado.innerHTML=`PARABÉNS <P id='nomeSorteado'>${participantes[x]}</P> VOCÊ FOI SORTEADO!`
-    }
+   
+    resultado.innerHTML=`PARABÉNS <P id='nomeSorteado'>${participantes[x]}</P> VOCÊ FOI SORTEADO!`
+   
     
 
     
 })
+
+
+
+
+
