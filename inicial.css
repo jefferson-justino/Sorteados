@@ -68,3 +68,67 @@ nav a div {
 nav a div:hover{
     transform: scale(1.02);
 }
+@media(max-width: 1119px)
+{
+    #botao{
+        padding-left: 60%;
+        
+        
+    }
+}
+@media(max-width: 773px)
+{
+    #botao{
+        padding-left: 50%;
+        
+        
+    }
+    main{
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+        
+    }
+}
+@media(max-width: 620px)
+{
+    #botao{
+        padding-left: 40%;
+        
+        
+    }
+    main{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        
+    }
+}
+@media(max-width: 510px)
+{
+    #botao{
+        padding-left: 20%;
+        
+        
+    }
+    main{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        
+    }
+}
+@media(max-width: 347px)
+{
+    #botao{
+        padding-left: 10%;
+        
+        
+    }
+    main{
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 2%;
+        
+    }
+}
